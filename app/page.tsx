@@ -6,6 +6,7 @@ import HowItWorks from "./components/HowItWorks";
 import WhyChooseUs from "./components/WhyChooseUs";
 import CustomerTestimonials from "./components/CustomerTestimonials";
 import ContactForm from "./components/ContactForm";
+import ChatWidget from "./components/ChatWidget";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
       <WhyChooseUs />
       <CustomerTestimonials />
       <ContactForm />
+      <ChatWidget />
     </main>
   );
 }
